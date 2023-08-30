@@ -1,5 +1,10 @@
 ﻿using SamplePrograms;
 
+Bikes olabike = new Bikes("Electric bike", "napoleon", 2);
+Bikes thunderBird = new Bikes("Mocha", "Dcruz", 2);
+
+
+/*
 int custid = 00010;
 long accno = 123456789012345;
 string? name = "Jadu";
@@ -26,6 +31,7 @@ switch(ch)
 
     default: break;
 }
+*/
 /*
 // Multilevel Inheritance
 int rollno = Convert.ToInt32(Console.ReadLine());
