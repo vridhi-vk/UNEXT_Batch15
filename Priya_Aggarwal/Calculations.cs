@@ -30,7 +30,7 @@ namespace SimplePrograms
         }
 
 
-        //Methods
+        //Methods - concrete
         /*  public static int Addition(double number1, double number2)
           {
              // Calculations calculations = new Calculations();
