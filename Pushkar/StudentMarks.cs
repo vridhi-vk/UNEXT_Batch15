@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,11 +26,16 @@ namespace SamplePrograms
         public int Mark3 { get => mark3; set => mark3 = value; }
 
         //Methods
-        public void CalculateScores()
+        public int CalculateTotal()
         {
             int total = Mark1 + Mark2+ Mark3;
-            double avg = total / 3;
-            Console.WriteLine(total + " "+ avg);
+            return total;
+        }
+
+        public double CalculateAverage()
+        {
+            double avg = (Mark1 + Mark2 + Mark3) / 3;
+            return avg;
         }
     }
 
