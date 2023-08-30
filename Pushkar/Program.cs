@@ -97,7 +97,7 @@ switch(ch)
 }
 
 */
-
+/*
 // Method overiding
 UpdateBankDetails updatebankDetails = new UpdateBankDetails(12345, "john doe", 9876543221, "Inactive");
 
@@ -117,3 +117,11 @@ switch (ch)
         updatebankDetails.GetAccountDetails("john doe");
         break;
 }
+*/
+/*
+Bikes olabike = new Bikes("Electric Bike", "2 Stroke", 2);
+Bikes thunderbird = new Bikes("RE", "Bullet", 2);
+
+olabike.MakeSound("zzzzzz");
+thunderbird.MakeSound("dub");
+*/
