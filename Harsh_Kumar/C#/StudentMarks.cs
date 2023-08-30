@@ -28,6 +28,8 @@ namespace SEPrograms
             double avg = total/3;
             Console.WriteLine(total + " " + avg);
         }*/
+
+        //Methods - concrete
         public int CalculateTotal()
         {
             int total = Mark1 + Mark2 + Mark3;
