@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +30,7 @@ namespace SimplePrograms
         }
 
 
-        //Methods - concrete
+        //Methods
         /*  public static int Addition(double number1, double number2)
           {
              // Calculations calculations = new Calculations();

@@ -50,6 +50,7 @@ Console.WriteLine(studentgrades.CalculatedTotal());
 studentgrades.CalculateGrade();*/
 
 //POLYMORPHISM (Method Overloading & Method Overriding)
+/*
 UpdateBankDetails bankDetails=new UpdateBankDetails(1234,67000032183L,"Shaurya","Inactive");
 bankDetails.WelcomeMessage();
 Console.WriteLine("1. CustID  2. Acc No. 3. Name");
@@ -68,4 +69,27 @@ switch(ch)
         break;
 }
 
+Bikes olabike = new Bikes("Electric Bike","2 Stroke",2);
+Bikes thunderbird = new Bikes("RE", "Bullet", 2);
+olabike.makeSound("zzzzzzzz");
+thunderbird.makeSound("DugDugDugDug");
+*/
+
+try
+{
+    BankAccount account = new BankAccount("1234567890", 1000);
+    Console.WriteLine($"Account Number: {account.GetAccountNumber()}, Balance: {account.GetBalance()}");
+
+    account.Withdraw(500);
+    Console.WriteLine($"Withdraw 500, Balance: {account.GetBalance()}");
+
+    account.Deposit(200);
+    Console.WriteLine($"Deposit 200, Balance: {account.GetBalance()}");
+
+    account.Withdraw(2000);
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Exception: {ex.Message}");
+}
 
