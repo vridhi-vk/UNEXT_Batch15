@@ -1,5 +1,5 @@
-﻿using SEShellProgram;
-using SimplePrograms;
+﻿using SEShellBasicPrograms;
+using SEShellProgram;
 
 //default constructor
 //Calculations calculations = new Calculations();
@@ -83,7 +83,7 @@ Console.WriteLine(studentGrades.Phno);
 Console.WriteLine(studentGrades.CalculateTotal());
 Console.WriteLine(studentGrades.CalculateAverage());
 Console.WriteLine(studentGrades.CalculateGrade());
-*/
+
 
 BankDetails bankDetails = new BankDetails(12345,986756767, "Venkateswar", "Inactive");
 
@@ -102,4 +102,10 @@ switch (ch)
     case 3:
         bankDetails.GetAccountDetails("Venkateswar");
         break;
-}
+}*/
+
+Bikes olabike = new Bikes("Electric Bike", "2 Stroke", 2);
+Bikes hero = new Bikes("Moter Bike", "3 Stroke", 2);
+
+olabike.MakeSound("zzzzz");
+hero.MakeSound("eeeee");
