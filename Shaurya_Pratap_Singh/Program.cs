@@ -122,4 +122,18 @@ circle.GetInfo();
 //fileHandling.CopyMoveFile();
 //fileHandling.DeleteFile();
 
-//
+//NON GENERIC COLLECTIONS
+//NonGenericCollections nonGenericCollections=new NonGenericCollections();
+//nonGenericCollections.ArrayListElements();
+//nonGenericCollections.StackElements();
+//nonGenericCollections.QueueElements();
+//nonGenericCollections.HashElements();
+//nonGenericCollections.SortedListElements();
+
+//GENERIC COLLECTIONS
+GenericCollection genericCollection = new GenericCollection();
+//genericCollection.ListElements();
+//genericCollection.StackElements();
+//genericCollection.QueueElements();
+//genericCollection.HashElements();
+genericCollection.SortedListElements();
