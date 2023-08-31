@@ -1,0 +1,26 @@
+Assignment1
+Create a base class called "Animal" with the following properties and methods:
+ Properties: "Name" (string) and "Age" (int).
+ Method: "MakeSound()" that displays a generic sound message for the animal.
+
+Dog" class:
+Inherits from the "Animal" class.
+Override the "MakeSound()" method to display a specific sound for a dog.
+
+"Cat" class:
+Inherits from the "Animal" class.
+Override the "MakeSound()" method to display a specific sound for a cat.
+
+"Bird" class:
+
+Inherits from the "Animal" class.
+Override the "MakeSound()" method to display a specific sound for a bird.
+
+
+Assignment2
+Create class Shape with properties Name and Method GetInfo. 
+
+Create derived Rectangle class with Area and override the getinfo and display the information about rectangle 
+Create Derived class Circle with Radius and override the getinfo and display the information
+
+Implement the Inheritance,encapsulation and polymorphism accordingly
