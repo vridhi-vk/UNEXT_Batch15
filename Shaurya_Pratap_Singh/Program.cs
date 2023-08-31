@@ -102,8 +102,24 @@ cat.MakeSound();
 Bird bird = new Bird("Tweety",5);
 bird.MakeSound();*/
 //Assignment - 2 [30/08/23]
-Reactangle rectangle = new Reactangle("Dabba",22.7);
+/*Reactangle rectangle = new Reactangle("Dabba", 22.7);
 rectangle.GetInfo();
-Circle circle = new Circle("Roti",12);
+Circle circle = new Circle("Roti", 12);
 circle.GetInfo();
+*/
+// ARRAYS
+//ArrayManipulations arrayManipulations = new ArrayManipulations();
+//arrayManipulations.disp1d();
+//arrayManipulations.disp2d();
+//arrayManipulations.dispJA();
 
+//FILE HANDLING
+//FileHandling fileHandling = new FileHandling();
+//fileHandling.CreateFile();
+//fileHandling.WriteData();
+//fileHandling.ReadData();
+//fileHandling.FileProperties();
+//fileHandling.CopyMoveFile();
+//fileHandling.DeleteFile();
+
+//
